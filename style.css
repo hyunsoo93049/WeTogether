@@ -1,0 +1,78 @@
+#topbar{width:50%;height:30px;float:right;}
+#topbar ul{list-style:none;}
+#topbar ul li{float:right;}
+
+#logo-area img{width:120px;height:100px padding-bottom:0px;}
+
+.menu-box{width:80%;
+    height: 50px;
+    margin-right:50px;
+	float:right;
+	border: 1px solid #173386;
+	}
+.menu{width:100%;
+      height:100%;
+      float:left;
+      background-color:#f6f6f6; }
+.menu ul{list-style:none;}
+.menu ul li{float:left;
+           padding-left: 50px;}
+
+.catagory-box{width:120px;
+             height: 500px;
+             border: 1px solid #173386;
+             float:left;}
+.catagory-box ul{list-style:none;}
+.catagory-box ul li{padding-bottom:30px;}
+
+.banner-ad img{width:70%;
+              height:30%;
+              display: block;    /*이미지가운데정렬방법*/
+              margin:0px auto;}  /**/
+
+.hot-recruit{width:80%;
+                height:80%;
+                margin-left:auto;
+                padding-bottom:10px;
+                border:1px solid red;}
+.hot-recruit ul{list-style:decimal;}
+
+.contest-recruit{width:80%;
+                height:80%;
+                margin-left:auto;
+                padding-bottom:10px;
+                border:1px solid red;}
+.contest-recruit ul{list-style:none}
+
+.hackathon-recruit{width:80%;
+                height:80%;
+                margin-left:auto;
+                padding-bottom:10px;
+                border:1px solid red;}
+.hackathon-recruit ul{list-style:none}
+
+.study-recruit{width:80%;
+                height:80%;
+                margin-left:auto;
+                padding-bottom:10px;
+                border:1px solid red;}
+.study-recruit ul{list-style:none}
+
+
+.community-contents{width:80%;
+                height:80%;
+                margin-left:auto;
+                padding-bottom:10px;
+                border:1px solid red;}
+.community-contents ul{list-style:none}
+
+.community-catagory-area{margin-top:10px;}
+.community-catagory{width:80%;
+                height:80%;
+                margin-left:auto;
+				
+                padding-bottom:10px;
+                border:1px solid red;}
+.community-catagoty ul{list-style:none}
+
+.login-form{text-align:center;}
