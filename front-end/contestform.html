@@ -57,18 +57,40 @@
 
 <section>
 	<div class='contest-title'>
+		<hr>
 		<h3>제2회 8·22 에너지 영상 공모전(~7/19)</h3></div>
+		<hr>
 	<div  class='info'>
-		<div class='poster'>
 		<div class='poster'>
 			<img src='poster.PNG'></div>
 	
 		<div class='form'>
 			<ul>
-			<li>회사이름:<input type='text' name='name'></li>
-		
+			<li>분야  <input type='text' name='theme'></li>
+			<li>주최사  <input type='text' name='name'></li>
+			<li>기간  <input type='datetime-local' name='period1'> ~ <input type='datetime-local' name='period2'></li>
+			<li>대상  <input type='text' name='participants'></li>
+			<li>홈페이지  <input type='url' name='homepage'></li>
+			
 			</ul>
 		</div>
+		</div>
 </section>
+
+<section>
+	<div class='writing-form'>
+	<hr>
+	<h3>구인글쓰기<h3>
+	<hr>
+	<div class='form-area'> 
+	<pre>제목  <input type='text' name='form-title' value='제목쓰는곳'></pre>
+	<input type='text' name='write-text' value='내용쓰는곳'>
+	<button type='button' onclick="window.open('contest.html');">제출</button>
+	
+	
+	
+
+</section>
+
 </body>
 </html>
