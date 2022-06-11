@@ -1,78 +1,96 @@
-#topbar{width:50%;height:30px;float:right;}
-#topbar ul{list-style:none;}
-#topbar ul li{float:right;}
 
-#logo-area img{width:120px;height:100px padding-bottom:0px;}
+a{text-decoration-line: none;
+color: inherit;}
+a:hover   { color:#FF0000 }
 
-.menu-box{width:80%;
+header #topbar{width:50%;height:30px;float:right;}
+header #topbar ul{list-style:none;}
+header #topbar ul li{float:right;}
+header #logo-area img{width:120px;height:100px padding-bottom:0px;}
+
+nav .menu-box{width:80%;
     height: 50px;
     margin-right:50px;
 	float:right;
 	border: 1px solid #173386;
 	}
-.menu{width:100%;
+nav .menu{width:100%;
       height:100%;
       float:left;
       background-color:#f6f6f6; }
-.menu ul{list-style:none;}
-.menu ul li{float:left;
+nav .menu ul{list-style:none;}
+nav .menu ul li{float:left;
            padding-left: 50px;}
 
-.catagory-box{width:120px;
+aside .catagory-box{width:120px;
              height: 500px;
              border: 1px solid #173386;
              float:left;}
-.catagory-box ul{list-style:none;}
-.catagory-box ul li{padding-bottom:30px;}
+aside .catagory-box ul{list-style:none;}
+aside .catagory-box ul li{padding-bottom:30px;}
 
-.banner-ad img{width:70%;
+article .banner-ad img{width:70%;
               height:30%;
               display: block;    /*이미지가운데정렬방법*/
               margin:0px auto;}  /**/
 
-.hot-recruit{width:80%;
+section .hot-recruit{width:80%;
                 height:80%;
                 margin-left:auto;
                 padding-bottom:10px;
                 border:1px solid red;}
-.hot-recruit ul{list-style:decimal;}
+section .hot-recruit ul{list-style:decimal;}
 
-.contest-recruit{width:80%;
+section .contest-recruit{width:80%;
                 height:80%;
                 margin-left:auto;
                 padding-bottom:10px;
                 border:1px solid red;}
-.contest-recruit ul{list-style:none}
+section .contest-recruit ul{list-style:none}
 
-.hackathon-recruit{width:80%;
+section .hackathon-recruit{width:80%;
                 height:80%;
                 margin-left:auto;
                 padding-bottom:10px;
                 border:1px solid red;}
-.hackathon-recruit ul{list-style:none}
+section .hackathon-recruit ul{list-style:none}
 
-.study-recruit{width:80%;
+section .study-recruit{width:80%;
                 height:80%;
                 margin-left:auto;
                 padding-bottom:10px;
                 border:1px solid red;}
-.study-recruit ul{list-style:none}
+section.study-recruit ul{list-style:none}
 
 
-.community-contents{width:80%;
+section .community-contents{width:80%;
                 height:80%;
                 margin-left:auto;
                 padding-bottom:10px;
                 border:1px solid red;}
-.community-contents ul{list-style:none}
+section .community-contents ul{list-style:none}
 
-.community-catagory-area{margin-top:10px;}
-.community-catagory{width:80%;
+section .community-catagory-area{margin-top:10px;}
+section .community-catagory{width:80%;
                 height:80%;
                 margin-left:auto;
 				
                 padding-bottom:10px;
                 border:1px solid red;}
-.community-catagoty ul{list-style:none}
+section .community-catagoty ul{list-style:none}
 
-.login-form{text-align:center;}
+section .login-form{text-align:center;}
+
+section .contest-title{font-size:12px;
+				margin-left:200px;
+				margin-bottom:50px;
+				}
+section .poster{width:200px;
+				height:200px;
+				margin-left:200px;
+				margin-right:100px;
+				}
+
+section .form{margin-left:100px;
+	
+}				
